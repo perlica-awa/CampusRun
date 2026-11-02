@@ -1,0 +1,7 @@
+# 站点地址（构建时读取，不入库）
+# 平台入口必须与平台跳转时携带的 service 完全一致，否则 CAS 不会发票。
+target.casHost=pass.example.edu.cn
+target.platformHost=run.example.edu.cn
+target.platformEntry=https://run.example.edu.cn/app/public/index.php/index/login/entry
+# 公钥脚本路径（可选）；留空则使用内置兜底公钥。
+target.loginJsPath=/tpass/comm/js/login.js

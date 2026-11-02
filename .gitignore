@@ -1,0 +1,38 @@
+# ── 构建产物 ────────────────────────────────────────────────
+build/
+.gradle/
+*/build/
+*/*/build/
+local.properties
+captures/
+*.apk
+*.aab
+
+# ── 本机配置与签名 ──────────────────────────────────────────
+*.keystore
+*.jks
+keystore.properties
+.gradle-local/
+.env
+
+# ── 仅本地保留：文档、调研与采集产物 ────────────────────────
+docs/
+
+# ── 站点地址与 VPN 配置只在构建时注入，不落库 ───────────────
+campusrun/target.properties
+campusrun/vpn-profile.ovpn
+campusrun/vpn-tls-auth.key
+
+# ── 构建时由 campusrun/templates/ 同步的副本，源头是模板目录 ──
+campusrun/app/src/main/assets/templates/
+campusrun/templates/*/preview.png
+
+# ── 临时工作目录 ────────────────────────────────────────────
+.tmp/
+
+# ── 编辑器 / 系统 / 本地 Agent 计划 ─────────────────────────
+.idea/
+*.iml
+.zcode/
+.DS_Store
+Thumbs.db

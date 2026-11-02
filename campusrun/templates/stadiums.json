@@ -1,0 +1,90 @@
+{
+  "stadiums": [
+    {
+      "id": "venue-a",
+      "name": "田径场 A",
+      "name_en": "Track A",
+      "dir": "venue-a",
+      "file": "geometry.json",
+      "lane_count": 8,
+      "source_capture": "capture-a",
+      "lanes": [
+        {
+          "index": 1,
+          "length_m": 401.49
+        },
+        {
+          "index": 2,
+          "length_m": 408.84
+        },
+        {
+          "index": 3,
+          "length_m": 416.26
+        },
+        {
+          "index": 4,
+          "length_m": 423.73
+        },
+        {
+          "index": 5,
+          "length_m": 431.26
+        },
+        {
+          "index": 6,
+          "length_m": 438.84
+        },
+        {
+          "index": 7,
+          "length_m": 446.48
+        },
+        {
+          "index": 8,
+          "length_m": 454.17
+        }
+      ]
+    },
+    {
+      "id": "venue-b",
+      "name": "田径场 B",
+      "name_en": "Track B",
+      "dir": "venue-b",
+      "file": "geometry.json",
+      "lane_count": 8,
+      "source_capture": "capture-b",
+      "lanes": [
+        {
+          "index": 1,
+          "length_m": 403.98
+        },
+        {
+          "index": 2,
+          "length_m": 411.31
+        },
+        {
+          "index": 3,
+          "length_m": 418.78
+        },
+        {
+          "index": 4,
+          "length_m": 426.38
+        },
+        {
+          "index": 5,
+          "length_m": 434.11
+        },
+        {
+          "index": 6,
+          "length_m": 441.96
+        },
+        {
+          "index": 7,
+          "length_m": 449.93
+        },
+        {
+          "index": 8,
+          "length_m": 458.01
+        }
+      ]
+    }
+  ]
+}

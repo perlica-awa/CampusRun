@@ -1,0 +1,47 @@
+{
+  "id": "venue-b",
+  "name": "田径场 B",
+  "name_en": "Track B",
+  "coordinate": "WGS84",
+  "direction": "counterclockwise",
+  "file": "geometry.json",
+  "source_capture": "capture-b",
+  "start_angle_deg": -157.127,
+  "lane_count": 8,
+  "step_deg": 0.5,
+  "fourier_order": 12,
+  "lanes": [
+    {
+      "index": 1,
+      "length_m": 403.98
+    },
+    {
+      "index": 2,
+      "length_m": 411.31
+    },
+    {
+      "index": 3,
+      "length_m": 418.78
+    },
+    {
+      "index": 4,
+      "length_m": 426.38
+    },
+    {
+      "index": 5,
+      "length_m": 434.11
+    },
+    {
+      "index": 6,
+      "length_m": 441.96
+    },
+    {
+      "index": 7,
+      "length_m": 449.93
+    },
+    {
+      "index": 8,
+      "length_m": 458.01
+    }
+  ]
+}

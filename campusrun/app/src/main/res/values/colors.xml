@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_blue">#003366</color>
+    <color name="brand_blue_light">#1A4A80</color>
+    <color name="state_real">#B26A00</color>
+    <color name="state_sim">#1B6B3A</color>
+    <!-- 自适应图标背景：与图标源图的白色底色一致 -->
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources>
