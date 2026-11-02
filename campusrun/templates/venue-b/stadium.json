@@ -1,7 +1,7 @@
 {
   "id": "venue-b",
-  "name": "田径场 B",
-  "name_en": "Track B",
+  "name": "南湖校区五四体育场",
+  "name_en": "Nanhu Wusi Stadium",
   "coordinate": "WGS84",
   "direction": "counterclockwise",
   "file": "geometry.json",

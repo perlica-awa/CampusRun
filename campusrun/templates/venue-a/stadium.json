@@ -1,7 +1,7 @@
 {
   "id": "venue-a",
-  "name": "田径场 A",
-  "name_en": "Track A",
+  "name": "浑南校区田径场",
+  "name_en": "Hunnan Campus Track",
   "coordinate": "WGS84",
   "direction": "counterclockwise",
   "file": "geometry.json",

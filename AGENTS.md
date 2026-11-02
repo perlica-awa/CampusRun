@@ -42,8 +42,8 @@ cd campusrun
 - 模板唯一来源为 `campusrun/templates/`。`syncTemplates` 在 `preBuild` 阶段将其同步至
   `app/src/main/assets/templates/`，不得手工修改 assets 目录。
 - 同步规则固定为 `stadiums.json` 及每个场地的 `stadium.json`、`geometry.json`。
-- 模板目录名、`venue_id` 与显示名不得写入真实地名或站点标识；坐标与几何数据可以保留。
-  `preview.png` 只在本机生成，不入库。
+- 模板目录名与 `venue_id` 保持中性（`venue-a`、`venue-b`）；显示名可以使用真实场地名称。
+  坐标与几何数据保留；`preview.png` 只在本机生成，不入库。
 - 几何模型采用“内、外两条边界 + 道数插值”，不存储逐秒点位。
 - 换道仅修改连续的道次参数 `lanePos`；禁止改为切换整条道的 JSON，否则会产生沿赛道方向的跳变。
 - 默认道次为 4。换道仅允许在选定道与内侧相邻道之间进行，禁止向外侧扩展。调整默认值前须
